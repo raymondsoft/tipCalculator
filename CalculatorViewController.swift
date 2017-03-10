@@ -38,6 +38,7 @@ class CalculatorViewController: UIViewController{
    
     override func viewDidLoad() {
         super.viewDidLoad()
+        print ("HELLO")
         
         // Do any additional setup after loading the view.
         self.deviceSegmentedControl.removeAllSegments()
